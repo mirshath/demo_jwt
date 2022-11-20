@@ -1,5 +1,7 @@
 const {createPool} = require ("mysql");
 
+
+// create connection
 const pool = createPool({
     port:process.env.APP_PORT,
     host:process.env.DB_HOST,
